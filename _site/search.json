@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mikael Moise",
+    "section": "",
+    "text": "Hi! My name is Mikael and I’m a data analyst/engineer passionate about transforming data into actionable insights. I specialize in building robust data pipelines and conducting complex analyses using R and SQL. Currently, I’m analyzing surgical outcomes at Memorial Sloan Kettering Cancer Center, where I apply my expertise to improve healthcare analytics. I’m also the developer of lubrilog, a package available on CRAN. My educational background includes a Bachelor’s in Computer Science and a Master’s in Data Science, providing me with a strong foundation in both the theoretical and practical aspects of data science. When I’m not at work, you can find me watching Dune, Game of Thrones and Survivor!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Mikael Moise",
+    "section": "Projects",
+    "text": "Projects\n\n\nlubrilog"
+  }
+]

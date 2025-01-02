@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Mikael Moise"
+  navbar:
+    pinned: true
+    right:
+    - icon: envelope
+      text: Email
+      href: mailto:mikaelmoise00@gmail.com
+    - icon: file-pdf
+      text: Resume
+    - icon: github
+      text: GitHub
+      href: https://github.com/arrismo
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
