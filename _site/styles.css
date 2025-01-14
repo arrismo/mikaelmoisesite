@@ -1,1 +1,9 @@
 /* css styles */
+.g-col-6 {
+    display: flex
+}
+
+.g-col-12 {
+    display: flex
+}
+
