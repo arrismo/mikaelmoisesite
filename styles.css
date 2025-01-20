@@ -1,4 +1,20 @@
 /* css styles */
+
+
+/*-- scss:defaults --*/
+
+.grid {
+  margin-top: 2em;
+  margin-bottom:4em;
+}
+
+.g-col-4 img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
 .blog-grid {
   gap: 1.5rem;
 }
@@ -89,9 +105,4 @@
 
 .package-container {
   width: 150px;
-}
-
-.profile-image {
-  border-radius: 60%;
-  margin-bottom: 1rem;
 }
