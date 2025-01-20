@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -125,115 +125,66 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="images/headshot.png" class="about-image
-  round " style="height: 5cm; width: 5cm;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Mikael Moise</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
+<div class="quarto-about-jolla column-page-left">
+ <main class="content column-page-left" id="quarto-document-content">
 
+<div>
+<p><img src="images/headshot.png" class="profile-image img-fluid" width="200"></p>
+</div>
 <section id="hello-there" class="level2">
 <h2 data-anchor-id="hello-there">Hello there 👋</h2>
-<div id="hero-heading">
+<div id="hero-heading" class="profile-box">
 <p>Hi! My name is Mikael and I’m a data analyst/engineer passionate about transforming data into actionable insights. I specialize in building robust data pipelines and conducting complex analyses using R and SQL. Currently, I’m analyzing surgical outcomes at Memorial Sloan Kettering Cancer Center, where I apply my expertise to improve healthcare analytics. I’m also the developer of lubrilog, a package available on CRAN. My educational background includes a Bachelor’s in Computer Science and a Master’s in Data Science, providing me with a strong foundation in both the theoretical and practical aspects of data science. When I’m not at work, you can find me watching Dune, Game of Thrones and Survivor!</p>
 </div>
 </section>
 <section id="data-engineering-projects" class="level2">
 <h2 data-anchor-id="data-engineering-projects">Data Engineering Projects</h2>
-<div class="grid">
-<div class="g-col-12">
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<div>
 </div>
-<div class="callout-title-container flex-fill">
-Openweather Dashboard
+<div class="blog-grid quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="blog-card quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="images/openweather.png" class="img-fluid"></p>
+<section id="openweather-dashboard" class="level3">
+<h3 data-anchor-id="openweather-dashboard">Openweather Dashboard</h3>
+<p>This ETL (Extract, Transform, Load) pipeline is designed to retrieve weather data from OpenWeatherMap API, process it, and create a comprehensive weather data analysis solution.</p>
+<p><a href="https://github.com/arrismo/openweathermap-etl" class="repo-link">Repo</a></p>
+</section>
 </div>
+<div class="blog-card quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="images/news.png" class="img-fluid"></p>
+<section id="ai-news-dashboard" class="level3">
+<h3 data-anchor-id="ai-news-dashboard">AI News Dashboard</h3>
+<p>This project leverages the News API to collect recent articles about artificial intelligence, utilizing TextBlob for natural language processing and sentiment analysis. By extracting and analyzing news content, the pipeline processes articles to determine sentiment trends in AI-related reporting.</p>
+<p><a href="https://github.com/arrismo/news-dashboard" class="repo-link">Repo</a></p>
+</section>
 </div>
-<div class="callout-body-container callout-body">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/openweather.png" class="img-fluid figure-img"></p>
-<figcaption>Diagram</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<div class="g-col-12">
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-AI News Dashboard
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/news.png" class="img-fluid figure-img"></p>
-<figcaption>Diagram</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<div class="g-col-12">
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-ETF Performance Insights &amp; Comparison Dashboard
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/epic.png" class="img-fluid figure-img"></p>
-<figcaption>Diagram</figcaption>
-</figure>
-</div>
-</div>
+<div class="blog-card quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="images/epic.png" class="img-fluid"></p>
+<section id="etf-performance-dashboard" class="level3">
+<h3 data-anchor-id="etf-performance-dashboard">ETF Performance Dashboard</h3>
+<p>This project creates a pipeline for analyzing ETF (Exchange-Traded Fund) performance data. It pulls historical ETF price data from Kaggle, processes it using DuckDB, and visualizes the results in Power BI.</p>
+<p><a href="https://github.com/arrismo/epic-etf" class="repo-link">Repo</a></p>
+</section>
 </div>
 </div>
 </div>
 </section>
 <section id="r-packages" class="level2">
 <h2 data-anchor-id="r-packages">R Packages</h2>
-<div class="grid">
-<div class="g-col-6">
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<div>
 </div>
-<div class="callout-body-container">
-<p><img src="images/lubrilog.png" class="img-fluid" style="width:65.0%"><br>
-<a href="https://github.com/arrismo/lubrilog">Get Insights on ‘lubridate’ Operations</a></p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="blog-card-package quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/lubrilog.png" class="img-fluid" width="290"></p>
+<p>Get Insights on ‘lubridate’ Operations</p>
+<p><a href="https://github.com/arrismo/lubrilog" class="repo-link">Repo</a></p>
 </div>
-</div>
-</div>
-</div>
-<div class="g-col-6">
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><img src="images/criterion_hex.png" class="img-fluid" style="width:50.0%"><br>
-<a href="https://github.com/arrismo/criterioncollection">Data set of the Criterion Collection</a></p>
-</div>
-</div>
+<div class="blog-card-package quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/criterion_hex.png" class="img-fluid"></p>
+<p>Data set of the Criterion Collection</p>
+<p><a href="https://github.com/arrismo/criterioncollection" class="repo-link">Repo</a></p>
 </div>
 </div>
 </div>

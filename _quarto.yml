@@ -1,6 +1,6 @@
 project:
   type: website
-
+page-layout: full
 website:
   title: "Mikael Moise"
   navbar:
@@ -20,6 +20,8 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    grid: 
+      body-width: 1100px
 
 editor: visual
 
