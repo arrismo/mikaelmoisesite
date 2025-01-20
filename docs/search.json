@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mikael Moise",
+    "section": "",
+    "text": "Hi! My name is Mikael and I’m a data analyst/engineer passionate about transforming data into actionable insights. I specialize in building robust data pipelines and conducting complex analyses using R and SQL. Currently, I’m analyzing surgical outcomes at Memorial Sloan Kettering Cancer Center, where I apply my expertise to improve healthcare analytics. I’m also the developer of lubrilog, a package available on CRAN. My educational background includes a Bachelor’s in Computer Science and a Master’s in Data Science, providing me with a strong foundation in both the theoretical and practical aspects of data science. When I’m not at work, you can find me watching Dune, Game of Thrones and Survivor!"
+  },
+  {
+    "objectID": "index.html#hello-there",
+    "href": "index.html#hello-there",
+    "title": "Mikael Moise",
+    "section": "",
+    "text": "Hi! My name is Mikael and I’m a data analyst/engineer passionate about transforming data into actionable insights. I specialize in building robust data pipelines and conducting complex analyses using R and SQL. Currently, I’m analyzing surgical outcomes at Memorial Sloan Kettering Cancer Center, where I apply my expertise to improve healthcare analytics. I’m also the developer of lubrilog, a package available on CRAN. My educational background includes a Bachelor’s in Computer Science and a Master’s in Data Science, providing me with a strong foundation in both the theoretical and practical aspects of data science. When I’m not at work, you can find me watching Dune, Game of Thrones and Survivor!"
+  },
+  {
+    "objectID": "index.html#data-engineering-projects",
+    "href": "index.html#data-engineering-projects",
+    "title": "Mikael Moise",
+    "section": "Data Engineering Projects",
+    "text": "Data Engineering Projects\n\n\n\n\n\n\n\nOpenweather Dashboard\nThis ETL (Extract, Transform, Load) pipeline is designed to retrieve weather data from OpenWeatherMap API, process it, and create a comprehensive weather data analysis solution.\nRepo\n\n\n\n\n\nAI News Dashboard\nThis project leverages the News API to collect recent articles about artificial intelligence, utilizing TextBlob for natural language processing and sentiment analysis. By extracting and analyzing news content, the pipeline processes articles to determine sentiment trends in AI-related reporting.\nRepo\n\n\n\n\n\nETF Performance Dashboard\nThis project creates a pipeline for analyzing ETF (Exchange-Traded Fund) performance data. It pulls historical ETF price data from Kaggle, processes it using DuckDB, and visualizes the results in Power BI.\nRepo"
+  },
+  {
+    "objectID": "index.html#r-packages",
+    "href": "index.html#r-packages",
+    "title": "Mikael Moise",
+    "section": "R Packages",
+    "text": "R Packages\n\n\n\n\n\n\nGet Insights on ‘lubridate’ Operations\nRepo\n\n\n\nData set of the Criterion Collection\nRepo"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]
