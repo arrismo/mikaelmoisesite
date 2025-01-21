@@ -11,6 +11,7 @@ website:
       href: mailto:mikaelmoise00@gmail.com
     - icon: file-pdf
       text: Resume
+      href: resume/mikaelmoise-resume.pdf
     - icon: github
       text: GitHub
       href: https://github.com/arrismo
