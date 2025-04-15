@@ -1,71 +1,42 @@
 ---
-comments: false
+title: "Mikael Moise"
 about:
-  template: jolla
+  template: trestles
+  image: images/headshot.png
+  links: 
+    - icon: envelope
+      text: email
+      href: mailto:mikaelmoise00@gmail.com
+    - icon: file-pdf
+      text: resume
+      href: resume/mikaelmoise-resume.pdf
+    - icon: github
+      text: github
+      href: https://github.com/arrismo
 ---
 
-::::: grid
-::: g-col-4
-![](images/headshot.png)
-:::
+```{r}
+#| include: false
+options(repos = list(CRAN="http://cran.rstudio.com/"))
+```
 
-::: g-col-8
-## Hello there 👋
 
-Hi! My name is Mikael and I'm a data analyst/engineer passionate about transforming data into actionable insights. I specialize in building robust data pipelines and conducting complex analyses using R and SQL. Currently, I'm analyzing surgical outcomes at Memorial Sloan Kettering Cancer Center, where I apply my expertise to improve healthcare analytics. I'm also the developer of lubrilog, a package available on CRAN. My educational background includes a Bachelor's in Computer Science and a Master's in Data Science, providing me with a strong foundation in both the theoretical and practical aspects of data science. When I'm not at work, you can find me watching Dune, Game of Thrones and Survivor!
-:::
-:::::
+Hi! My name is Mikael and I'm a data scientist passionate about transforming data into actionable insights. I specialize in building robust data pipelines and conducting complex analyses using R,SQL, and Python. Currently, I'm analyzing surgical outcomes at Memorial Sloan Kettering Cancer Center, where I apply my expertise to improve healthcare analytics. My educational background includes a Bachelor's in Computer Science and a Master's in Data Science, providing me with a strong foundation in both the theoretical and practical aspects of data science.
 
-## Data Engineering Projects
 
-:::::: {.blog-grid layout-ncol="3"}
-::: blog-card
-![](images/openweather.png)
+## Engineering Projects
 
-### Openweather Dashboard
+#### [kaggle mcp server](https://github.com/arrismo/kaggle-mcp)
+- **What:** An MCP server to connect to Kaggle in an IDE like Cursor
+- **How:** `Python: {fastmcp, kaggle api}`
 
-This ETL (Extract, Transform, Load) pipeline is designed to retrieve weather data from OpenWeatherMap API, process it, and create a comprehensive weather data analysis solution.
+#### [re-connect AI](https://github.com/arrismo/re-connect-ai)
 
-[Repo](https://github.com/arrismo/openweathermap-etl){.repo-link}
-:::
-
-::: blog-card
-![](images/news.png)
-
-### AI News Dashboard
-
-This project leverages the News API to collect recent articles about artificial intelligence, utilizing TextBlob for natural language processing and sentiment analysis. By extracting and analyzing news content, the pipeline processes articles to determine sentiment trends in AI-related reporting.
-
-[Repo](https://github.com/arrismo/news-dashboard){.repo-link}
-:::
-
-::: blog-card
-![](images/epic.png)
-
-### ETF Performance Dashboard
-
-This project creates a pipeline for analyzing ETF (Exchange-Traded Fund) performance data. It pulls historical ETF price data from Kaggle, processes it using DuckDB, and visualizes the results in Power BI.
-
-[Repo](https://github.com/arrismo/epic-etf){.repo-link}
-:::
-::::::
+- **What:** AI-based matching algorithm that pairs users with complementary experiences and goals 
+- **How:** `Frontend: {React, Typescript}, Backend: {Express.js, PostgreSQL}, AI: {Gemini AI}`
 
 ## R Packages
+#### [{lubrilog} ![](images/lubrilog.png){height=40}](https://github.com/arrismo/lubrilog)
 
-::::: {layout-ncol="2"}
-::: blog-card-package
-![](images/lubrilog.png){width="290"}
-
-Get Insights on 'lubridate' Operations
-
-[Repo](https://github.com/arrismo/lubrilog){.repo-link}
-:::
-
-::: blog-card-package
-![](images/criterion_hex.png)
-
-Data set of the Criterion Collection
-
-[Repo](https://github.com/arrismo/criterioncollection){.repo-link}
-:::
-:::::
+- **What:** An R package that provides insights on 'lubridate' operations.
+- **How:** `R`

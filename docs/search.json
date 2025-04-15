@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Mikael Moise",
     "section": "",
-    "text": "Hi! My name is Mikael and I’m a data analyst/engineer passionate about transforming data into actionable insights. I specialize in building robust data pipelines and conducting complex analyses using R and SQL. Currently, I’m analyzing surgical outcomes at Memorial Sloan Kettering Cancer Center, where I apply my expertise to improve healthcare analytics. I’m also the developer of lubrilog, a package available on CRAN. My educational background includes a Bachelor’s in Computer Science and a Master’s in Data Science, providing me with a strong foundation in both the theoretical and practical aspects of data science. When I’m not at work, you can find me watching Dune, Game of Thrones and Survivor!"
+    "text": "Hi! My name is Mikael and I’m a data scientist passionate about transforming data into actionable insights. I specialize in building robust data pipelines and conducting complex analyses using R,SQL, and Python. Currently, I’m analyzing surgical outcomes at Memorial Sloan Kettering Cancer Center, where I apply my expertise to improve healthcare analytics. My educational background includes a Bachelor’s in Computer Science and a Master’s in Data Science, providing me with a strong foundation in both the theoretical and practical aspects of data science."
   },
   {
     "objectID": "index.html#hello-there",
@@ -16,16 +16,16 @@
   {
     "objectID": "index.html#data-engineering-projects",
     "href": "index.html#data-engineering-projects",
-    "title": "Mikael Moise",
+    "title": "Hi There 👋",
     "section": "Data Engineering Projects",
-    "text": "Data Engineering Projects\n\n\n\n\n\n\n\nOpenweather Dashboard\nThis ETL (Extract, Transform, Load) pipeline is designed to retrieve weather data from OpenWeatherMap API, process it, and create a comprehensive weather data analysis solution.\nRepo\n\n\n\n\n\nAI News Dashboard\nThis project leverages the News API to collect recent articles about artificial intelligence, utilizing TextBlob for natural language processing and sentiment analysis. By extracting and analyzing news content, the pipeline processes articles to determine sentiment trends in AI-related reporting.\nRepo\n\n\n\n\n\nETF Performance Dashboard\nThis project creates a pipeline for analyzing ETF (Exchange-Traded Fund) performance data. It pulls historical ETF price data from Kaggle, processes it using DuckDB, and visualizes the results in Power BI.\nRepo"
+    "text": "Data Engineering Projects"
   },
   {
     "objectID": "index.html#r-packages",
     "href": "index.html#r-packages",
     "title": "Mikael Moise",
     "section": "R Packages",
-    "text": "R Packages\n\n\n\n\n\n\nGet Insights on ‘lubridate’ Operations\nRepo\n\n\n\nData set of the Criterion Collection\nRepo"
+    "text": "R Packages\n\n{lubrilog} \n\nWhat: An R package that provides insights on ‘lubridate’ operations.\nHow: R"
   },
   {
     "objectID": "about.html",
@@ -33,5 +33,19 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#ai-projects",
+    "href": "index.html#ai-projects",
+    "title": "Hi There 👋",
+    "section": "AI Projects",
+    "text": "AI Projects"
+  },
+  {
+    "objectID": "index.html#engineering-projects",
+    "href": "index.html#engineering-projects",
+    "title": "Mikael Moise",
+    "section": "Engineering Projects",
+    "text": "Engineering Projects\n\nkaggle mcp server\n\nWhat: An MCP server to connect to Kaggle in an IDE like Cursor\nHow: Python: {fastmcp, kaggle api}\n\n\n\nre-connect AI\n\nWhat: AI-based matching algorithm that pairs users with complementary experiences and goals\nHow: Frontend: {React, Typescript}, Backend: {Express.js, PostgreSQL}, AI: {Gemini AI}"
   }
 ]

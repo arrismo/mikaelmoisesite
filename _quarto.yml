@@ -1,29 +1,5 @@
 project:
   type: website
   output-dir: docs
-page-layout: full
-website:
-  title: "Mikael Moise"
-  navbar:
-    pinned: true
-    right:
-    - icon: envelope
-      text: Email
-      href: mailto:mikaelmoise00@gmail.com
-    - icon: file-pdf
-      text: Resume
-      href: resume/mikaelmoise-resume.pdf
-    - icon: github
-      text: GitHub
-      href: https://github.com/arrismo
 
-format:
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-    grid: 
-      body-width: 1100px
-
-editor: visual
 
