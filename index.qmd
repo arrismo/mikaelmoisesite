@@ -28,7 +28,7 @@ options(repos = list(CRAN="http://cran.rstudio.com/"))
 Hi! My name is Mikael and I'm a data scientist passionate about transforming data into actionable insights. I specialize in building robust data pipelines and conducting complex analyses using R,SQL, and Python. Currently, I'm analyzing surgical outcomes at Memorial Sloan Kettering Cancer Center, where I apply my expertise to improve healthcare analytics. My educational background includes a Bachelor's in Computer Science and a Master's in Data Science, providing me with a strong foundation in both the theoretical and practical aspects of data science.
 
 
-## Engineering Projects
+### My Projects!
 
 #### [kaggle mcp server](https://github.com/arrismo/kaggle-mcp)
 - **What:** An MCP server to connect to Kaggle in an IDE like Cursor
@@ -44,9 +44,9 @@ Hi! My name is Mikael and I'm a data scientist passionate about transforming dat
 - **How:** `Frontend: {React, Typescript}, Backend: {Express.js, PostgreSQL, Supabase}, AI: {Gemini AI}`
 
 #### [nyctrains](https://github.com/arrismo/nyctrains)
+- **What:** MTA API Python Package 
+- **How:** `Fast API`
 
-
-## R Packages
 #### [{lubrilog} ![](images/lubrilog.png){height=40}](https://github.com/arrismo/lubrilog)
 
 - **What:** An R package that provides insights on 'lubridate' operations.
