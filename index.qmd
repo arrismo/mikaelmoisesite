@@ -36,7 +36,7 @@ Hi! My name is Mikael and I'm a data scientist passionate about transforming dat
 
 #### [re-connect AI](https://github.com/arrismo/re-connect-ai)
 
-- **What:** AI-based matching algorithm that pairs users with complementary experiences and goals 
+- **What:** ReConnect AI - Alcohol Recovery Community Platform 
 - **How:** `Frontend: {React, Typescript}, Backend: {Express.js, PostgreSQL, Supabase}, AI: {Gemini AI}`
 
 #### [prolytix](https://github.com/arrismo/prolytix)
