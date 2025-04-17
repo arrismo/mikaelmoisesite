@@ -19,10 +19,9 @@ about:
       
 ---
 
-```{r}
-#| include: false
-options(repos = list(CRAN="http://cran.rstudio.com/"))
-```
+
+
+
 
 
 Hi! My name is Mikael and I'm a data scientist passionate about transforming data into actionable insights. I specialize in building robust data pipelines and conducting complex analyses using R,SQL, and Python. Currently, I'm analyzing surgical outcomes at Memorial Sloan Kettering Cancer Center, where I apply my expertise to improve healthcare analytics. My educational background includes a Bachelor's in Computer Science and a Master's in Data Science, providing me with a strong foundation in both the theoretical and practical aspects of data science.

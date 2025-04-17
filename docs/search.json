@@ -11,7 +11,7 @@
     "href": "index.html#engineering-projects",
     "title": "Mikael Moise",
     "section": "Engineering Projects",
-    "text": "Engineering Projects\n\nkaggle mcp server\n\nWhat: An MCP server to connect to Kaggle in an IDE like Cursor\nHow: Python: {fastmcp, kaggle api}\n\n\n\nre-connect AI\n\nWhat: AI-based matching algorithm that pairs users with complementary experiences and goals\nHow: Frontend: {React, Typescript}, Backend: {Express.js, PostgreSQL}, AI: {Gemini AI}"
+    "text": "Engineering Projects\n\nkaggle mcp server\n\nWhat: An MCP server to connect to Kaggle in an IDE like Cursor\nHow: Python: {fastmcp, kaggle api}\n\n\n\nre-connect AI\n\nWhat: AI-based matching algorithm that pairs users with complementary experiences and goals\nHow: Frontend: {React, Typescript}, Backend: {Express.js, PostgreSQL, Supabase}, AI: {Gemini AI}\n\n\n\nprolytix\n\nWhat: PRO (Patient-Reported Outcomes) AI analytics Platform\nHow: Frontend: {React, Typescript}, Backend: {Express.js, PostgreSQL, Supabase}, AI: {Gemini AI}\n\n\n\nnyctrains"
   },
   {
     "objectID": "index.html#r-packages",
