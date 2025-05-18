@@ -2,7 +2,6 @@
 title: "Mikael Moise"
 about:
   template: trestles
-  image: images/headshot.png
   links: 
     - icon: envelope
       text: email
@@ -24,10 +23,6 @@ about:
 options(repos = list(CRAN="http://cran.rstudio.com/"))
 ```
 
-
-Hi! My name is Mikael and I'm a data scientist passionate about transforming data into actionable insights. I specialize in building robust data pipelines and conducting complex analyses using R,SQL, and Python. Currently, I'm analyzing surgical outcomes at Memorial Sloan Kettering Cancer Center, where I apply my expertise to improve healthcare analytics. My educational background includes a Bachelor's in Computer Science and a Master's in Data Science, providing me with a strong foundation in both the theoretical and practical aspects of data science.
-
-
 ### My Projects!
 
 #### [kaggle mcp server](https://github.com/arrismo/kaggle-mcp)
@@ -36,7 +31,7 @@ Hi! My name is Mikael and I'm a data scientist passionate about transforming dat
 
 #### [re-connect AI](https://github.com/arrismo/re-connect-ai)
 
-- **What:** ReConnect AI - Alcohol Recovery Community Platform 
+- **What:** ReConnect AI - Cancer Support Community Platform 
 - **How:** `Frontend: {React, Typescript}, Backend: {Express.js, PostgreSQL, Supabase}, AI: {Gemini AI}`
 
 #### [prolytix](https://github.com/arrismo/prolytix)
