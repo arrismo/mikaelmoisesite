@@ -29,14 +29,11 @@ options(repos = list(CRAN="http://cran.rstudio.com/"))
 - **What:** An MCP server to connect to Kaggle in an IDE like Cursor
 - **How:** `Python: {fastmcp, kaggle api}`
 
-#### [re-connect AI](https://github.com/arrismo/re-connect-ai)
+#### [dermq AI](https://dermqai-website.vercel.app/)
 
-- **What:** ReConnect AI - Cancer Support Community Platform 
-- **How:** `Frontend: {React, Typescript}, Backend: {Express.js, PostgreSQL, Supabase}, AI: {Gemini AI}`
+- **What:** Your AI Dermatologist in Your Pocket
+- **How:** `Frontend: {Vercel V0}, Backend: {FastAPI}, ML: {google/efficientnet-b0}`
 
-#### [prolytix](https://github.com/arrismo/prolytix)
-- **What:** PRO (Patient-Reported Outcomes) AI analytics Platform 
-- **How:** `Frontend: {React, Typescript}, Backend: {Express.js, PostgreSQL, Supabase}, AI: {Gemini AI}`
 
 #### [nyctrains](https://github.com/arrismo/nyctrains)
 - **What:** MTA API Python Package 
