@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -31,13 +31,14 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-991b1886d3c685c7aa2b62b80640c7af.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ff63373b1067ca6f91cf1456aa1f00a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -115,18 +116,11 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>How:</strong> <code>Python: {fastmcp, kaggle api}</code></li>
 </ul>
 </section>
-<section id="re-connect-ai" class="level4">
-<h4 data-anchor-id="re-connect-ai"><a href="https://github.com/arrismo/re-connect-ai">re-connect AI</a></h4>
+<section id="dermq-ai" class="level4">
+<h4 data-anchor-id="dermq-ai"><a href="https://dermqai-website.vercel.app/">dermq AI</a></h4>
 <ul>
-<li><strong>What:</strong> ReConnect AI - Cancer Support Community Platform</li>
-<li><strong>How:</strong> <code>Frontend: {React, Typescript}, Backend: {Express.js, PostgreSQL, Supabase}, AI: {Gemini AI}</code></li>
-</ul>
-</section>
-<section id="prolytix" class="level4">
-<h4 data-anchor-id="prolytix"><a href="https://github.com/arrismo/prolytix">prolytix</a></h4>
-<ul>
-<li><strong>What:</strong> PRO (Patient-Reported Outcomes) AI analytics Platform</li>
-<li><strong>How:</strong> <code>Frontend: {React, Typescript}, Backend: {Express.js, PostgreSQL, Supabase}, AI: {Gemini AI}</code></li>
+<li><strong>What:</strong> Your AI Dermatologist in Your Pocket</li>
+<li><strong>How:</strong> <code>Frontend: {Vercel V0}, Backend: {FastAPI}, ML: {google/efficientnet-b0}</code></li>
 </ul>
 </section>
 <section id="nyctrains" class="level4">
@@ -195,13 +189,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
