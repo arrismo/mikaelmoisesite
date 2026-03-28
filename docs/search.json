@@ -4,6 +4,6 @@
     "href": "index.html",
     "title": "Mikael Moise",
     "section": "",
-    "text": "My Projects!\n\nkaggle mcp server\n\nWhat: An MCP server to connect to Kaggle in an IDE like Cursor\nHow: Python: {fastmcp, kaggle api}\n\n\n\ndermq AI\n\nWhat: Your AI Dermatologist in Your Pocket\nHow: Frontend: {Vercel V0}, Backend: {FastAPI}, ML: {google/efficientnet-b0}\n\n\n\nnyctrains\n\nWhat: MTA API Python Package\nHow: Fast API\n\n\n\n{lubrilog} \n\nWhat: An R package that provides insights on ‘lubridate’ operations.\nHow: R"
+    "text": "My Projects!\n\npkrr\n\nWhat: Unified CLI to scaffold, build, test, lint, and document Python and R packages from a single workflow\nHow: Python: {typer, pydantic, PyYAML, Jinja2}, R: {testthat, lintr, pkgdown}\n\n\n\nkaggle mcp server\n\nWhat: An MCP server to connect to Kaggle in an IDE like Cursor\nHow: Python: {fastmcp, kaggle api}\n\n\n\ndermq AI\n\nWhat: Your AI Dermatologist in Your Pocket\nHow: Frontend: {Vercel V0}, Backend: {FastAPI}, ML: {google/efficientnet-b0}\n\n\n\nnyctrains\n\nWhat: MTA API Python Package\nHow: Fast API\n\n\n\n{lubrilog} \n\nWhat: An R package that provides insights on ‘lubridate’ operations.\nHow: R"
   }
 ]

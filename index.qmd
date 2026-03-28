@@ -25,6 +25,10 @@ options(repos = list(CRAN="http://cran.rstudio.com/"))
 
 ### My Projects!
 
+#### [pkrr](https://github.com/nortelabs/pkrr)
+- **What:** Unified CLI to scaffold, build, test, lint, and document Python and R packages from a single workflow
+- **How:** `Python: {typer, pydantic, PyYAML, Jinja2}, R: {testthat, lintr, pkgdown}`
+
 #### [kaggle mcp server](https://github.com/arrismo/kaggle-mcp)
 - **What:** An MCP server to connect to Kaggle in an IDE like Cursor
 - **How:** `Python: {fastmcp, kaggle api}`
